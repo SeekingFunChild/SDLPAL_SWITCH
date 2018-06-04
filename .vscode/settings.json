@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "xstring": "cpp",
+        "limits": "cpp",
+        "main.h": "c",
+        "common.h": "c",
+        "time.h": "c",
+        "switch.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
