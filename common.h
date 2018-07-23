@@ -54,9 +54,6 @@ extern "C"
 
 int myfprintf(FILE* fp,const char* fmt,...);
 
-unsigned int mygetticks();
-//#define SDL_GetTicks   mygetticks
-
 char* myfgets(char* buf,int maxcount,FILE* fp);
 #define fgets myfgets
 

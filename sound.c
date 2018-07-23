@@ -303,7 +303,7 @@ SOUND_OpenAudio(
    //
    // Open the sound subsystem.
    //
-   gSndPlayer.spec.freq = 44100;
+   gSndPlayer.spec.freq = PAL_SAMPLE_RATE;
    gSndPlayer.spec.format = AUDIO_S16;
    gSndPlayer.spec.channels = PAL_CHANNELS;
    gSndPlayer.spec.samples = 1024;

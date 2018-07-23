@@ -13,11 +13,6 @@ int myfprintf(FILE* fp,const char* fmt,...)
     return 0;
 }
 
-unsigned int mygetticks()
-{
-    unsigned int ticks=svcGetSystemTick()/19200.0;
-    return ticks;
-}
 
 char* myfgets(char* buf,int maxcount,FILE* fp)
 {
